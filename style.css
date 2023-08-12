@@ -1,0 +1,275 @@
+/* Body */
+*{
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+
+
+/* Navbar */
+nav{
+    /* border: 1px black solid; */
+    /* margin: auto;   */
+    /* position: sticky; */
+    top: 0;
+    z-index:1;     
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 136, 255);
+          
+}
+nav:hover{
+    background-color: rgba(0, 136, 255, 0.747);
+}
+nav .sec-1{
+    float: left;
+    display: flex;
+    gap: 10px;
+}
+nav .sec-1 h3{
+    margin: auto;
+}
+.sec-1 img{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    margin-left: 20px ;
+}
+.sec-1 img:hover{
+    transform: scale(1.1);
+    border-color: black;
+    transition-duration: 0.5s;
+
+}
+nav ul{
+    float: right;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    justify-content: center;
+    padding-right: 80px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    /* font-weight:; */
+    font-size:medium;
+    border: 1px solid rgba(77, 77, 77, 0);;
+    background-color: rgba(77, 77, 77, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    color: rgb(35, 76, 0);
+    /* text-decoration:underline; */
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+/* Home */
+.home{
+    background-image: url("img/home-bg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: sticky;
+    top: 0%;
+
+}
+.home h3{
+    color: white;
+    margin: auto;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* About Us */
+ .about-us{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+ }
+ .about-us h3{
+     text-align: center;
+    }
+.img-txt-abt{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.about-img img{
+    /* margin: auto;
+    padding: auto; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    max-width: 230px;
+    max-height: 230px;   
+    border-radius: 50%;     
+ }
+ .about-img img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+ }
+ .about-us .about-text{
+    max-width: 650px;
+    float:right;
+    justify-content: center;
+
+ }
+
+ .about-us:hover{
+    border-color:black;
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+
+ }
+
+ /* Panel */
+.main-panel{
+    margin: auto;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    position: sticky;
+    z-index: 3;
+    background-image: url("img/panel-bg\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.panel{
+     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex-flow: wrap;
+
+ }
+
+ .panel .s-1{
+    display: flex;
+    gap: 30px;
+    
+}
+.panel .s-2{
+    display: flex;;
+    gap: 30px;
+ }
+.panel .card img{
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.card:hover{
+    background-color: rgb(224, 242, 255);
+    color: black;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    
+}
+ /* Ambassador Section */
+.amb-prg{
+    border: 1px solid white;
+    background-color: antiquewhite;
+    position: sticky;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+    
+}
+.amb-prg h3{
+    text-align: center;
+}
+
+ .ambassador{
+    display: flex;
+ }
+ .ambassador .img-amb img{
+     max-width: 300px;
+     max-height: 300px;
+     border-radius: 20%;
+     margin-left: 100px;
+     
+    }
+    .ambassador .img-amb img:hover{
+        transform: scale(1.05);
+        border-color: black;
+        transition-duration: 0.5s;
+    }
+    .ambassador .amb-text{
+        max-width: 500px;
+        margin: auto;
+    }
+    .ambassador .amb-text a:hover{
+        background-color: black;
+        color: white;
+    }
+    .amb-prg:hover{
+        background-color: rgb(255, 245, 232);
+        
+}
+
+/* Contact */
+
+.contact{
+    display:flex ;
+    justify-content: space-between;
+}
+.contact .mid{
+    text-align: center;
+    margin: auto;
+}
+.contact .logo{
+    padding-left: 50px;
+}
+.contact .logo img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border-color: black;
+}
+.contact .logo img:hover{
+    transform: scale(1.05);
+    
+}
+.contact .social{
+    display: flex;
+    gap: 5px;
+    padding-right: 50px;
+}
+.contact .social #col-trs:hover{
+    transform:scale(1.2) ;
+    transition-duration: 0.5s;
+}
+.twi:hover{
+    color: rgb(0, 113, 243);    
+}
+
+.yt:hover{
+    color: red;
+}
+
+.insta:hover{
+    color: palevioletred;
+}
+
+.fb:hover{
+    color: blue;
+}
